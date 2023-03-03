@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background-color: #FCDA68;
+  background-color: #1429e7;
 }
 .menu {
   display: flex;
@@ -29,7 +29,7 @@ body {
   justify-content: space-around;
 }
 .menu a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px 20px;
 }
@@ -39,12 +39,12 @@ body {
 }
 
 .menu a:hover {
-  background-color: #8E7BEF;
-  color: #191c32;
+  background-color: #0b6af7;
+  color: #ffffff;
 }
 
 .menu .active {
-  color: #8E7BEF;
+  color: #fbfaff;
 
 }
 .toggle-menu,
@@ -89,24 +89,24 @@ transition: 3s;
 
 
 .download-cv {
-	box-shadow: 0px 1px 0px 0px #fff6af;
-	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-	background-color:#ffec64;
+	box-shadow: 0px 1px 0px 0px #1429e7;
+	background:linear-gradient(to bottom, #1429e7 5%, #1429e7 100%);
+	background-color:#1429e7;
 	border-radius:6px;
-	border:1px solid #ffaa22;
+	border: 2px solid #1429e7;
 	display:inline-block;
 	cursor:pointer;
-	color:#333333;
+	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
 	font-weight:bold;
 	padding:15px 42px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffee66;
+	text-shadow:0px 1px 0px #1429e7;
 }
 .download-cv:hover {
-	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-	background-color:#ffab23;
+	background:linear-gradient(to bottom, #4254f5 5%, #00109c 100%);
+	background-color:#0eafe0;
 }
 .download-cv:active {
 	position:relative;
@@ -120,14 +120,14 @@ transition: 3s;
   width: 100vw;
   height: auto;
   align-items:flex-start;
-  background-color: #FCDA68;
+  background-color: #1429e7;
 }
 .Expe {
   width: 25vw;
   grid-column: 1/5;
   padding-left: 200px;
   padding-top: 10%;
- 
+  color: #ffffff;
 }
 
 .Experience-info {
@@ -137,11 +137,11 @@ transition: 3s;
 
 .Experience-info h2 {
   font-size: 2em;
-  color: #000000;
+  color: #ffffff;
   
 }
 .divider span{
-   color: #000000;
+   color: #ffffff;
    font-weight: 600;
    padding-left: 10%;
 }
@@ -149,7 +149,7 @@ transition: 3s;
 .designer{
     padding-left: 30%;
     padding-top: -30%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ffffff;
 }
 .designer-A{
   padding-left: 30%;
@@ -159,7 +159,7 @@ transition: 3s;
 .divider p{
     font-weight: 100;
     font-size: 20px;
-    color: #423F40;
+    color: #fff;
 }
 .section-uni{
   display: grid;
@@ -167,7 +167,7 @@ transition: 3s;
   width: 100vw;
   height: auto;
   align-items:flex-start;
-  background-color: #FCDA68;
+  background-color: #1429e7;
 }
 .portafolio-heading h3{
   font-size: 30px;
@@ -197,7 +197,7 @@ transition: 3s;
 .container1 h3{
   text-align:center;
   font-size: 15px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .portafolio-heading {
   width: 100vw;
@@ -238,7 +238,7 @@ transition: 3s;
   width: 380px;
   background-color: #ffffff;
   margin: 1em 1em 5em 1em;
-  color: #000000;
+  color: #ffffff;
 }
 
 .footer {
@@ -249,13 +249,13 @@ transition: 3s;
   width: 100vw;
   height: 100px;
   padding: 2em;
-  background-color: #FCDA68;
+  background-color: #1429e7;
 }
 
 .footer-content h5 {
   font-size: 1.5em;
   text-align: center;
-  color: #8E7BEF;
+  color: #ffffff;
 }
 
 .mobil, .email {
@@ -391,12 +391,12 @@ p {
     width: 80vw;
     grid-column: 1/5;
     padding-left: 40px;
-   
+    
   }
   
   .Expe h3{
     padding-top: 30%;
-   
+   color: #fff;
   }
   .Experience {
     display:flow-root;
@@ -452,21 +452,21 @@ p {
   
   .Experience-info h2 {
     font-size: 2em;
-    color: #000000;
+    color: #ffffff;
     
   }
   .designer{
       padding-left: 45%;
       padding-top: -30%;
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid #ffffff;
   }
   .designer-A{
     padding-left: 45%;
     padding-top: -30%;
-  
+    color: #fff;
   }
   .divider span{
-     color: #000000;
+     color: #ffffff;
      font-weight: 600;
      padding-left: 10%;
   }
@@ -474,18 +474,20 @@ p {
   .divider p{
       font-weight: 100;
       font-size: 20px;
-      color: #423F40;
+      color: #ffffff;
   }
   .portafolio-heading h3{
     font-size: 30px;
     padding-left: 30%;
-    padding-top: 15px ;
+    padding-top: 15px;
+    color: #ffffff;
   }
   #id-contacto h2 {
     font-size: 30px;
     font-weight: 00;
     padding-left: 130px;
     padding-top: 50px;
+    color: #000000;
   }
  
 }
