@@ -1,35 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+:root {
+  --color: #fff;
+  --menu:#287effe1;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family:Arial, Helvetica, sans-serif;
 }
-
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: var(--color) ;
   color: rgb(0, 0, 0);
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background-color: #1429e7;
+  background-color: var(--menu);
 }
 .menu {
   display: flex;
   width: 50%;
   justify-content: space-around;
+  color: #fff;
 }
 .menu a {
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-decoration: none;
   padding: 10px 20px;
 }
@@ -39,7 +40,7 @@ body {
 }
 
 .menu a:hover {
-  background-color: #0b6af7;
+  background-color: var(--menu);
   color: #ffffff;
 }
 
@@ -78,7 +79,7 @@ h1 {
   width: 40px;
   height: 40px;
   padding: 8px;
-  background-color: #8E7BEF;
+  background-color: var(--menu);
   border-radius: 80%;
   
 }
@@ -86,8 +87,6 @@ h1 {
 background-color: #FCDA68;
 transition: 3s;
 }
-
-
 .download-cv {
 	box-shadow: 0px 1px 0px 0px #1429e7;
 	background:linear-gradient(to bottom, #1429e7 5%, #1429e7 100%);
@@ -112,15 +111,13 @@ transition: 3s;
 	position:relative;
 	top:1px;
 }
-
-
 .Experience {
   display: grid;
   grid-template-columns: repeat(10, 2fr);
   width: 100vw;
   height: auto;
   align-items:flex-start;
-  background-color: #1429e7;
+  background-color: var(--menu);
 }
 .Expe {
   width: 25vw;
@@ -167,7 +164,7 @@ transition: 3s;
   width: 100vw;
   height: auto;
   align-items:flex-start;
-  background-color: #1429e7;
+  background-color: var(--menu);
 }
 .portafolio-heading h3{
   font-size: 30px;
@@ -249,7 +246,7 @@ transition: 3s;
   width: 100vw;
   height: 100px;
   padding: 2em;
-  background-color: #1429e7;
+  background-color: var(--menu);
 }
 
 .footer-content h5 {
@@ -309,7 +306,7 @@ p {
     top: 0;
     left: 0;
     height: auto;
-    background-color: #FCDA68;
+    background-color: var(--menu);
     z-index: 1;
     transform: translateX(-110%);
     transition: all .2s ease-in-out;
@@ -343,7 +340,7 @@ p {
     
   }
   .icono img:hover{
-    background-color: #FCDA68;
+    background-color: var(--menu);
     transition: 3s;
     }
     .download-cv,
@@ -361,7 +358,7 @@ p {
   display: flex;
 }
 .download-cv:hover {
-  background-color: #FCDA68;
+  background-color: var(--menu);
   box-shadow: none;
 }
   .toggle-menu {
