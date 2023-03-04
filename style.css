@@ -15,7 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: var(--color) ;
-  color: rgb(0, 0, 0);
+  color: #000;
 }
 .navbar {
   display: flex;
@@ -36,9 +36,7 @@ body {
 }
 .menu li {
   list-style: none;
-
 }
-
 .menu a:hover {
   background-color: var(--menu);
   color: #ffffff;
@@ -65,6 +63,9 @@ body {
 
 h1 {
   font-size: clamp(4vw, 1.5em, 3em);
+}
+h2 {
+  color: var(--color);
 }
 .clas{
   display: flex;
@@ -233,9 +234,8 @@ transition: 3s;
 
 .card {
   width: 380px;
-  background-color: #ffffff;
   margin: 1em 1em 5em 1em;
-  color: #ffffff;
+  color: #000000;
 }
 
 .footer {
@@ -310,14 +310,14 @@ p {
     z-index: 1;
     transform: translateX(-110%);
     transition: all .2s ease-in-out;
+    
   }
-
   .show-menu {
     border-bottom-right-radius: 10%;
     transform: translateX(0%);
     transition: all .5s ease-in-out;
+    
   }
-
   .menu li {
     margin: 2em;
     list-style: none;
@@ -335,7 +335,7 @@ p {
     width: 10vw;
     height: 100px;
     padding: 20px;
-    background-color: #8E7BEF;
+    color: var(--menu);
     border-radius: 80%;
     
   }
@@ -343,10 +343,10 @@ p {
     background-color: var(--menu);
     transition: 3s;
     }
-    .download-cv,
-    .project-details-button {
+  .download-cv,
+  .project-details-button {
   padding: 15px 50px;
-  background-color: #8E7BEF;
+  background-color: var(--menu);
   border: none;
   margin-top: 70px;
   cursor: pointer;
@@ -431,7 +431,7 @@ p {
   .download-cv{
     margin-top: -10px;
     padding: 15px 50px;
-    background-color: #8E7BEF;
+    background-color: var(--menu);
     border: none;
     cursor: pointer;
    
